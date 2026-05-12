@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Lakshmansai1999/argocd-helmchart-angular.git
+    repoURL: https://github.com/Lakshmansai1999/updated-fullstack-Angular-kubernetes-argocd-heml.git
     targetRevision: master
     path: angular-app
   destination:
