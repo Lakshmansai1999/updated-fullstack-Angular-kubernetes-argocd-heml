@@ -1,9 +1,9 @@
 replicaCount: 2
 
 image:
-  repository: your-registry/angular-frontend
+  repository: lakshmansai/angular-app
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "8"
 
 service:
   type: NodePort
