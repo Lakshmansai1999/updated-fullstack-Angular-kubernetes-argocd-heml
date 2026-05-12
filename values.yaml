@@ -1,0 +1,23 @@
+replicaCount: 2
+
+image:
+  repository: your-registry/angular-frontend
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 31055
+
+backend:
+  apiUrl: "http://springboot-backend:8080"
+
+resources:
+  limits:
+    cpu: 200m
+    memory: 256Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
