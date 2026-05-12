@@ -12,7 +12,7 @@ service:
   nodePort: 31055
 
 backend:
-  apiUrl: "http://springboot-backend:8080"
+  apiUrl: "http://192.168.56.118:31054"
 
 resources:
   limits:
